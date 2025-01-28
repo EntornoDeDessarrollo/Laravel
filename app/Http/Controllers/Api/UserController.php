@@ -21,6 +21,9 @@ class UserController extends Controller
     public function index()
     {
         //
+        $users = User::get();
+        // return $post;
+        return response()->json($users, 200);
 
     }
 
