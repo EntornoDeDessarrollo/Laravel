@@ -25,7 +25,7 @@ class UserController extends Controller
         // return $post;
         return response()->json($users, 200);
 
-    }
+    } 
 
     /**
      * Store a newly created resource in storage.
